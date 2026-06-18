@@ -1,27 +1,27 @@
-# Calculadora de Aposentadoria
+# Retirement Calculator
 
-Aplicativo Android desenvolvido em Kotlin para calcular quanto tempo falta para uma pessoa atingir a idade de aposentadoria, considerando sexo e idade informados pelo utilizador.
+An Android application developed in Kotlin to calculate how much time is left until retirement based on the user's gender and age.
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto foi desenvolvido no Android Studio utilizando Kotlin e componentes do Material Design para criar uma interface simples e fácil de utilizar.
+This project was developed using Android Studio, Kotlin, and Material Design components to provide a simple and user-friendly interface.
+![Tela Inicial](screen/calcAp.jpeg)
+## Features
 
-## Funcionalidades
+* Select gender (Male or Female);
+* Enter age;
+* Input validation;
+* Calculate the remaining time until retirement;
+* Display the result directly in the application.
 
-* Seleção do sexo (Masculino ou Feminino);
-* Introdução da idade do utilizador;
-* Validação dos dados informados;
-* Cálculo do tempo restante para aposentadoria;
-* Apresentação do resultado na própria aplicação.
+## Retirement Rules
 
-## Regras Utilizadas
+| Gender | Retirement Age |
+| ------ | -------------- |
+| Male   | 65 years       |
+| Female | 60 years       |
 
-| Sexo      | Idade de Aposentadoria |
-| --------- | ---------------------- |
-| Masculino | 65 anos                |
-| Feminino  | 60 anos                |
-
-## Tecnologias Utilizadas
+## Technologies Used
 
 * Kotlin
 * Android Studio
@@ -29,29 +29,29 @@ Este projeto foi desenvolvido no Android Studio utilizando Kotlin e componentes 
 * Material Design Components
 * ConstraintLayout
 
-## Como Executar
+## Running the Application
 
-### Requisitos
+### Requirements
 
 * Android Studio
-* JDK 11 ou superior
-* Android SDK 21 ou superior
+* JDK 11 or higher
+* Android SDK 21 or higher
 
-### Passos
+### Steps
 
-1. Clonar o repositório:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora-aposentadoria.git
+git clone https://github.com/your-username/retirement-calculator.git
 ```
 
-2. Abrir o projeto no Android Studio.
+2. Open the project in Android Studio.
 
-3. Sincronizar as dependências do Gradle.
+3. Sync Gradle dependencies.
 
-4. Executar a aplicação em um emulador ou dispositivo Android.
+4. Run the application on an emulator or Android device.
 
-## Estrutura do Projeto
+## Project Structure
 
 ```text
 app/
@@ -64,24 +64,24 @@ app/
 └── AndroidManifest.xml
 ```
 
-## Validações
+## Validations
 
-* O campo idade não pode ficar vazio;
-* Apenas valores numéricos são aceites;
-* Tratamento de entradas inválidas.
+* The age field cannot be empty;
+* Only numeric values are accepted;
+* Invalid input handling.
 
-## Melhorias Futuras
+## Future Improvements
 
-* Histórico de cálculos;
-* Tema escuro;
-* Suporte para múltiplos idiomas;
-* Compartilhamento de resultados;
-* Novas regras de aposentadoria.
+* Calculation history;
+* Dark mode support;
+* Multiple language support;
+* Result sharing;
+* Additional retirement rules.
 
-## Autor
+## Author
 
 Lucian Alfred
 
-## Licença
+## License
 
-Este projeto está disponível para fins académicos e de aprendizagem.
+This project is available for educational and learning purposes.

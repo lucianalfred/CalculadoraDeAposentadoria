@@ -90,7 +90,7 @@
                     android:id="@+id/btn_calcular"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
-                    android:text="CALCULAR IMC"
+                    android:text="CALCULAR"
                     android:textAllCaps="true"
                     app:icon="@android:drawable/ic_menu_save"
                     app:iconGravity="textStart"
